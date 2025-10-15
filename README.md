@@ -1,6 +1,6 @@
 # banking_system
 desktop banking application using CustomTkinter for a modern GUI, with a dark/light mode toggle. Built around object-oriented principles, it features a BankingSystem class managing multiple Account objects, each tracking name, account number, balance, and transaction history (deposits, withdrawals, openings).
-The app's interface is divided into tabs:
+The app's interface is divided into tabs (With Out Database Statical )
 
 Create: Users input name, account number, and initial balance (₹) to add accounts, with validation for duplicates and negative balances.
 Deposit/Withdraw: Select from dropdowns populated dynamically with existing accounts; enter amounts with error handling for invalid inputs. Post-transaction, low balance alerts trigger below ₹50.
